@@ -81,9 +81,8 @@ export default function Home(): ReactNode {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
-        <script src="https://cdn.tailwindcss.com"></script>
         <script>{`
-          tailwind.config = {
+          if (typeof window !== 'undefined') window.tailwind = { config: {
             corePlugins: { preflight: false },
             theme: {
               extend: {
@@ -112,8 +111,9 @@ export default function Home(): ReactNode {
                 }
               }
             }
-          }
+          }};
         `}</script>
+        <script src="https://cdn.tailwindcss.com"></script>
         <style>{`
           .okc-page {
             background-color: #000000;
@@ -166,7 +166,7 @@ export default function Home(): ReactNode {
                 <Package className="w-4 h-4" /> NPM
               </a>
               <a
-                href="https://github.com/open-kerno/commons-ts"
+                href="https://github.com/open-kerno/commons-site"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-okc-white/70 hover:text-okc-white transition-colors duration-200 flex items-center gap-1.5 text-sm font-medium">
@@ -207,7 +207,7 @@ export default function Home(): ReactNode {
                 Read the Documentation
               </Link>
               <a
-                href="https://github.com/open-kerno/commons-ts"
+                href="https://github.com/open-kerno/commons-site"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3.5 rounded-lg bg-transparent border border-okc-cobalt hover:bg-okc-cobalt/10 text-okc-white font-semibold tracking-wide transition-all duration-300 w-full sm:w-auto text-center shadow-glow">
@@ -284,7 +284,7 @@ export default function Home(): ReactNode {
 
             <div className="flex gap-6">
               <a
-                href="https://github.com/open-kerno/commons-ts"
+                href="https://github.com/open-kerno/commons-site"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-okc-white/50 hover:text-okc-cyan transition-colors duration-200">
