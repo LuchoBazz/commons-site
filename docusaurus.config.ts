@@ -24,7 +24,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'open-kerno', // Usually your GitHub org/user name.
-  projectName: 'commons', // Usually your repo name.
+  projectName: 'commons-site', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -101,7 +101,7 @@ const config: Config = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/open-kerno/commons',
+          href: 'https://github.com/open-kerno/commons-site',
           label: 'GitHub',
           position: 'right',
         },
@@ -125,11 +125,7 @@ const config: Config = {
             {
               label: 'GitHub Issues',
               href: 'https://github.com/open-kerno/commons-site/issues',
-            },
-            {
-              label: 'npm',
-              href: 'https://www.npmjs.com/package/@open-kerno/commons',
-            },
+            }
           ],
         },
         {
@@ -141,7 +137,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/open-kerno/commons',
+              href: 'https://github.com/open-kerno/commons-site',
             },
           ],
         },
