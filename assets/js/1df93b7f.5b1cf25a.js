@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcommons_site=self.webpackChunkcommons_site||[]).push([["9452"],{5146(s,e,o){o.r(e),o.d(e,{default:()=>n});var t=o(4848),c=o(6347);function n(){return(0,t.jsx)(c.rd,{to:"/commons-site/docs/"})}}}]);
