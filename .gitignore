@@ -16,3 +16,7 @@
 .env.production.local
 
 bun-error.log
+
+# Commons Repositories
+commons-ts/
+docs/commons-ts/
